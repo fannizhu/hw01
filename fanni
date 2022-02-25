@@ -1,0 +1,53 @@
+#homework 1.1
+mood = input ("Enter here, how are you feeling today: ")
+
+if mood == "happy":
+    print("Its great to see you happy")
+
+elif mood == "nervous":
+    print("take a deep breath!")
+
+elif mood == "sad":
+    print("That's ok, the sun will shine soon again!")
+
+elif mood == "excited":
+    print("That's good!")
+
+elif mood == "relaxed":
+    print("Great mood for coding!")
+
+else:
+    print("I don't recognize this mood!")
+
+
+#homework 1.2
+secret = 8
+guess = input("Guess the secret number! Enter here: ")
+
+if guess == 8:
+    print("Congratulations! That's the secret number!")
+
+else:
+    print("Wrong! Try again!")
+
+
+
+#homework 1.3
+# #operator = "+", "-", "*", "/"
+
+
+a = int(input("Enter a number: "))
+b = int(input("Enter another number: "))
+
+user_number = input("Enter +, -, * or / to calculate the previous numbers: ")
+if user_number == "+":
+    print(a+b)
+elif user_number == "-":
+    print(a-b)
+elif user_number == "*":
+    print(a*b)
+elif user_number == "/":
+    print(a/b)
+else:
+    print("Please use the operators above!")
+
